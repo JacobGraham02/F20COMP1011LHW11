@@ -18,6 +18,6 @@ public class OmdbApiUtility {
 
         HttpResponse<Path> response =
                 client.send(request, HttpResponse.BodyHandlers.ofFile(
-                                    Paths.get("./JSONFiles/movieSearch.json")));
+                                    Paths.get("./src/JSONFiles/movieSearch.json")));
     }
 }
