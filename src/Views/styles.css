@@ -1,5 +1,15 @@
 .root
 {
     -fx-background-color: linear-gradient(from 10px 10px to 400px 400px, #75706f,#eb4034);
-    -fx-font-size: 18pt;
+    -fx-font-size: 14pt;
+}
+
+.label
+{
+    -fx-text-fill: #ffffff;
+}
+
+#header
+{
+    -fx-font-size: 30pt;
 }
